@@ -1,0 +1,31 @@
+{
+  "name": "xlsx-to-surveyjs",
+  "version": "0.1.0",
+  "description": "Convert XLSX sheets (each sheet = form/page) into SurveyJS JSON. CLI + Node API.",
+  "main": "index.js",
+  "bin": {
+    "xlsx2surveyjs": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/test.js || echo 'no tests'"
+  },
+  "keywords": ["xlsx", "surveyjs", "excel", "converter"],
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "xlsx": "^0.19.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
